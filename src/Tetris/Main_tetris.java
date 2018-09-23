@@ -22,7 +22,6 @@ public class Main_tetris {
     private static int loopNumber;
     public static void main(String[] args) {
         initFields();
-
         while(!endOfGame){
             input();
             logic();
@@ -38,7 +37,9 @@ public class Main_tetris {
         shiftDirection = ShiftDirection.AWAITING;
         isRotateRequested = false;
         graphicsModule = new LwjglGraphicsModule();
+        //System.out.println("HI2");
         keyboardModule = new LwjglKeyboardHandleModule();
+        //System.out.println("HI3");
         gameField = new GameField();
     }
 

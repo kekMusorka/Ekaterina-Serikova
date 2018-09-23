@@ -51,7 +51,7 @@ public class Plot {
                 Main.text.setVisible(true);
                 break;
             case 4:
-                sapper(g2);
+                tetris(g2);
                 break;
             case 5:
                 Main.text.setVisible(false);
@@ -93,8 +93,8 @@ public class Plot {
         //g2.drawOval(350,530,20,20);
     }
 
-    public void sapper(Graphics2D g2) {
-        String[] args = {"me", "lol"};
+    public void tetris(Graphics2D g2) {
+        String[] args = {};
         Main_tetris.main(args);
         scen = 1;
     }
@@ -122,15 +122,15 @@ public class Plot {
             case 5:
                 if (mouseX >= 210 && mouseY >= 200 && mouseX <= 300 && mouseY <= 250) {
                     number = 1;
-                    setScen(1);
+                    setScen(4);
                 }
                 if (mouseX >= 200 && mouseY >= 340 && mouseX <= 320 && mouseY <= 390) {
                     number = 2;
-                    setScen(1);
+                    setScen(4);
                 }
                 if (mouseX >= 190 && mouseY >= 480 && mouseX <= 350 && mouseY <= 530) {
                     number = 3;
-                    setScen(1);
+                    setScen(4);
                 }
         }
     }
