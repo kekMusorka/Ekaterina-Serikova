@@ -41,6 +41,7 @@ public class Plot {
         //System.out.println(scen);
         switch (scen){
             case 0:
+                tetris(g2);
                 menu(g2);
                 break;
             case 1:

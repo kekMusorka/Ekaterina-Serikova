@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1499584049 source:c:\users\Катя\desktop\Прога\ЛКШ.Лето.2017\Суффиксный автомат\Суффиксный автомат\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdio>
+	<vector>
+	<cassert>
+	<map>
+
